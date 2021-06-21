@@ -1,0 +1,21 @@
+extends layout
+block content 
+    br
+    br
+    h3= "Add a Book"
+    form(action="" method="POST"  )
+      p &nbsp;&nbsp;&nbsp; BookName :
+        input(type="text" name="name" placeHolder="Enter Bookname")
+      p &nbsp;&nbsp;&nbsp; Author : 
+        input(type="text" name="author" placeHolder="Enter Author Name")
+      p &nbsp;&nbsp;&nbsp; Book Price :
+        input(type="text" name="price" placeHolder="Enter Price")
+      p &nbsp;&nbsp;&nbsp; Book Type :
+        input(type="text" name="category" placeHolder="Enter Category") 
+      p &nbsp;&nbsp;&nbsp;  Book Ratings :
+        input(type="text" name="rating" placeHolder="Enter ratings")   
+      br
+      input(type="submit")
+  
+
+

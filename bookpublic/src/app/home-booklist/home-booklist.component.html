@@ -1,0 +1,8 @@
+
+<ul>
+    <li *ngFor="let book of books;">
+     <a routerLink="/books/{{book._id}}">{{book.name}}</a> &nbsp; &nbsp; |
+     <button type="submit"><a routerLink="/books/delete/{{book._id}}">Delete </a></button> &nbsp; |  &nbsp;
+     <button type="submit" class="effect"><a routerLink="/books/update/{{book._id}}">Update</a></button>
+    </li>
+</ul>

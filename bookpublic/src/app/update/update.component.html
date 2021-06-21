@@ -1,0 +1,18 @@
+<br>
+<form (ngSubmit)="updatenewbook(selectedBook)">
+    <br>
+    <label for="name">BookName :- </label>
+    <input [(ngModel)]="selectedBook.name" id="name" name="name" placeholder="Enter BookName" required="required"><br><br>
+    <label for="author">Author :- </label>
+    <input [(ngModel)]="selectedBook.author" id="author" name="author" placeholder="Enter Author" required="required"><br><br>
+    <label for="price">Price :- </label>
+    <input [(ngModel)]="selectedBook.price" id="price" name="price" placeholder="Enter Price" required="required"><br><br>
+    <label for="category">Category :- </label>
+    <input [(ngModel)]="selectedBook.category" id="category" name="category" placeholder="Enter Category" required="required"><br><br>
+    <label for="rating">Rating :- </label>
+    <input [(ngModel)]="selectedBook.rating" id="rating" name="rating" placeholder="Enter Ratings" required="required"><br><br>
+    <button type="submit">
+       UPDATE
+    </button><br><br>
+    <a routerLink="">Go to Main Page</a>
+</form>

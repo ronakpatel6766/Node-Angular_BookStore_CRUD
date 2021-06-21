@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    background-color: rgb(122, 187, 187);
+    color: white;
+    
+  }
+  .effect{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    background-color: rgb(168, 150, 48);
+    color: white
+    
+  }
+  a{
+      color: rgb(124, 72, 72)
+  }
+  
+  
+  @import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  
+}
+nav {
+  color: #6e7c7c;
+}
+
+legend {
+  font-family: 'Lobster', cursive;
+}
+
+body {
+    padding:  0 5px;
+    margin: 0 2px;
+  font-family: "Cabin", Arial, sans-serif;
+  color: #383e56;
+  background-image: url('../src/assets/back.jpg');
+  background-repeat: no-repeat;
+  background-size :cover;
+}
+li{
+    font-size: 18px;;
+}
+.centre{
+    text-align: center;
+}

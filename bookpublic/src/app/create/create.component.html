@@ -1,0 +1,26 @@
+<br>
+&nbsp; &nbsp;<h3>Create a NEW Book</h3>
+<form (ngSubmit)="createNewBook(newbook)">
+    <br>
+    &nbsp; &nbsp;<label for="name">BookName :-</label>
+    &nbsp; &nbsp;<input [(ngModel)]="newbook.name" id="name" name="name" placeholder="Enter name" required="required"><br><br> 
+
+    &nbsp; &nbsp;<label for="author">Author :-</label>
+    &nbsp; &nbsp;<input [(ngModel)]="newbook.author" id="author" name="author" placeholder="Enter Author" required="required"><br><br>
+
+    &nbsp; &nbsp;<label for="price">Price :-</label>
+    &nbsp; &nbsp;<input [(ngModel)]="newbook.price" id="price" name="price" placeholder="Enter Price" required="required"><br><br>
+
+    &nbsp; &nbsp;<label for="category">Category :-</label>
+    &nbsp; &nbsp;<input [(ngModel)]="newbook.category" id="category" name="category" placeholder="Enter Category" required="required"><br><br>
+
+    &nbsp; &nbsp;<label for="rating">Rating :-</label>
+    &nbsp; &nbsp;<input [(ngModel)]="newbook.rating" id="rating" name="rating"  placeholder="Enter ratings" required="required"><br><br>
+
+    &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<button type="submit" >
+       CREATE 
+    </button><br><br>
+    
+
+    <a routerLink="" >Go to Booklist</a>
+</form>
